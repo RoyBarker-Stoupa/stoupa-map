@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0235e469a716831e7294baeef829752d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0235e469a716831e7294baeef829752d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0235e469a716831e7294baeef829752d = L.map(
+                "map_0235e469a716831e7294baeef829752d",
+                {
+                    center: [36.8491110968373, 22.264897034387676],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3de7789c32dc1a0e4bb82144e3f70139 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var marker_e4963a972682d7a3895cd4d3c54b2277 = L.marker(
+                [36.8491110968373, 22.264897034387676],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_dc93cac7f9bc51ff71691a25612805d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4963a972682d7a3895cd4d3c54b2277.setIcon(icon_dc93cac7f9bc51ff71691a25612805d3);
+        
+    
+        var popup_a7133df976ccb52420581db672f547e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be81ab7f1a78e3f19d0657ebaac343f1 = $(`<div id="html_be81ab7f1a78e3f19d0657ebaac343f1" style="width: 100.0%; height: 100.0%;"><b>Your Villa - Mythies Stone Villas</b><br>Walk down to the Supermarket and use the road on its left hand to side (as you face it) to it to get to the main beach.</div>`)[0];
+            popup_a7133df976ccb52420581db672f547e9.setContent(html_be81ab7f1a78e3f19d0657ebaac343f1);
+        
+
+        marker_e4963a972682d7a3895cd4d3c54b2277.bindPopup(popup_a7133df976ccb52420581db672f547e9)
+        ;
+
+        
+    
+    
+            var marker_27c52ad72f3b4348446f95b08059d1dc = L.marker(
+                [36.84659688564097, 22.264296768571306],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_9bf58eab432604d30ca18cdf491e5ca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_27c52ad72f3b4348446f95b08059d1dc.setIcon(icon_9bf58eab432604d30ca18cdf491e5ca5);
+        
+    
+        var popup_462d5e8efd50f0fd2e14440139367c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b7c6e5e8758500368619c11b095c466 = $(`<div id="html_0b7c6e5e8758500368619c11b095c466" style="width: 100.0%; height: 100.0%;"><b>Breakfast Bakery</b><br>Bigger selection of 'baked goods' than the Super Market. 5 mins walk.</div>`)[0];
+            popup_462d5e8efd50f0fd2e14440139367c58.setContent(html_0b7c6e5e8758500368619c11b095c466);
+        
+
+        marker_27c52ad72f3b4348446f95b08059d1dc.bindPopup(popup_462d5e8efd50f0fd2e14440139367c58)
+        ;
+
+        
+    
+    
+            var marker_f119e8df802157429776eb01dff71f83 = L.marker(
+                [36.84668299226096, 22.258887503036362],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_42e90e7e784ddb90a5b88b6b62104892 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f119e8df802157429776eb01dff71f83.setIcon(icon_42e90e7e784ddb90a5b88b6b62104892);
+        
+    
+        var popup_f53bd7a6bc90e54199ec447967681158 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_030241b9ba22fce5cd00d0091b8a9c92 = $(`<div id="html_030241b9ba22fce5cd00d0091b8a9c92" style="width: 100.0%; height: 100.0%;"><b>Ammos Gyros</b><br>Gyros, grills, chips. Very good value. Nearest thing to fast food but still good for lunch.</div>`)[0];
+            popup_f53bd7a6bc90e54199ec447967681158.setContent(html_030241b9ba22fce5cd00d0091b8a9c92);
+        
+
+        marker_f119e8df802157429776eb01dff71f83.bindPopup(popup_f53bd7a6bc90e54199ec447967681158)
+        ;
+
+        
+    
+    
+            var marker_5e574ff34cc30b128dc02325470328a8 = L.marker(
+                [36.846543474895554, 22.259053799993644],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_26b8bb31eb68eb1a65484a2f4686933e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5e574ff34cc30b128dc02325470328a8.setIcon(icon_26b8bb31eb68eb1a65484a2f4686933e);
+        
+    
+        var popup_3aca3a83cfee224d62d7fa95b7bdb293 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25af84dbfb79fc0411db510df8b4a7ff = $(`<div id="html_25af84dbfb79fc0411db510df8b4a7ff" style="width: 100.0%; height: 100.0%;"><b>Avli Tis Theanos</b><br>Standard menu but well done.</div>`)[0];
+            popup_3aca3a83cfee224d62d7fa95b7bdb293.setContent(html_25af84dbfb79fc0411db510df8b4a7ff);
+        
+
+        marker_5e574ff34cc30b128dc02325470328a8.bindPopup(popup_3aca3a83cfee224d62d7fa95b7bdb293)
+        ;
+
+        
+    
+    
+            var marker_2718dc6ce6908546c42a55b487903998 = L.marker(
+                [36.84563290301258, 22.25960284329554],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_efbbcf75f2587ade67a31e78dcef96d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2718dc6ce6908546c42a55b487903998.setIcon(icon_efbbcf75f2587ade67a31e78dcef96d8);
+        
+    
+        var popup_f858672fd432c295c9bc1fea235a40d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ae6ef9fe01428f7bfdbdeb283442675 = $(`<div id="html_1ae6ef9fe01428f7bfdbdeb283442675" style="width: 100.0%; height: 100.0%;"><b>Pizza Place</b><br>Looks like they've done this place up. It used to be basic but good. Hope its just the décor that's changed. Good lunch spot.</div>`)[0];
+            popup_f858672fd432c295c9bc1fea235a40d1.setContent(html_1ae6ef9fe01428f7bfdbdeb283442675);
+        
+
+        marker_2718dc6ce6908546c42a55b487903998.bindPopup(popup_f858672fd432c295c9bc1fea235a40d1)
+        ;
+
+        
+    
+    
+            var marker_36d9b9be14c589bced4043300fce46a8 = L.marker(
+                [36.844841441151466, 22.259872937093984],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_86b9229873b64d041e0bdb99967a2b9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_36d9b9be14c589bced4043300fce46a8.setIcon(icon_86b9229873b64d041e0bdb99967a2b9f);
+        
+    
+        var popup_36d184a0feab0998ea91b22627541193 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00479a138b1358670c749749a8784428 = $(`<div id="html_00479a138b1358670c749749a8784428" style="width: 100.0%; height: 100.0%;"><b>Melissa</b><br>We've only been here a couple of times. Used to be on a side street. Interesting for a smattering of asian dishes but more so for their traditional spit roasts. <a href='https://melissastoupa.com/en/menu' target='_blank'>Visit Melissa's Website</a>.</div>`)[0];
+            popup_36d184a0feab0998ea91b22627541193.setContent(html_00479a138b1358670c749749a8784428);
+        
+
+        marker_36d9b9be14c589bced4043300fce46a8.bindPopup(popup_36d184a0feab0998ea91b22627541193)
+        ;
+
+        
+    
+    
+            var marker_aab14619e2f0b19f6fb86bdbb72e241a = L.marker(
+                [36.84447737602392, 22.259633072480135],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_b17b7209fa9cc621fad51e4567c5dae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aab14619e2f0b19f6fb86bdbb72e241a.setIcon(icon_b17b7209fa9cc621fad51e4567c5dae5);
+        
+    
+        var popup_edbd2d002d935547b9aa770a2683a737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bf1a1decb4bfbbb428e0f8a46b13fa1 = $(`<div id="html_1bf1a1decb4bfbbb428e0f8a46b13fa1" style="width: 100.0%; height: 100.0%;"><b>Elea Café Restaurant</b><br>Nice lunch. We've used their loungers on the beack quite a lot. Think they'll even serve food at your lounger!</div>`)[0];
+            popup_edbd2d002d935547b9aa770a2683a737.setContent(html_1bf1a1decb4bfbbb428e0f8a46b13fa1);
+        
+
+        marker_aab14619e2f0b19f6fb86bdbb72e241a.bindPopup(popup_edbd2d002d935547b9aa770a2683a737)
+        ;
+
+        
+    
+    
+            var marker_938308945a6517eb983a5439f538c099 = L.marker(
+                [36.84374209176329, 22.25896453704684],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_424228858640f62ac18d13748d7b0a98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_938308945a6517eb983a5439f538c099.setIcon(icon_424228858640f62ac18d13748d7b0a98);
+        
+    
+        var popup_9279aa133c65b455abf3a3a2f2d44699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f78532b834e3114f19d3be04afaa2cd = $(`<div id="html_6f78532b834e3114f19d3be04afaa2cd" style="width: 100.0%; height: 100.0%;"><b>Pefko</b><br>Probably our favourite for hospitality and location. Food is pretty good too!</div>`)[0];
+            popup_9279aa133c65b455abf3a3a2f2d44699.setContent(html_6f78532b834e3114f19d3be04afaa2cd);
+        
+
+        marker_938308945a6517eb983a5439f538c099.bindPopup(popup_9279aa133c65b455abf3a3a2f2d44699)
+        ;
+
+        
+    
+    
+            var marker_d97d5278a59897d4e764c0b0a1bee9d7 = L.marker(
+                [36.84377643578125, 22.258615849878346],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_bf139ae22b8ee7ca10ccda41f6cf02b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d97d5278a59897d4e764c0b0a1bee9d7.setIcon(icon_bf139ae22b8ee7ca10ccda41f6cf02b9);
+        
+    
+        var popup_4e7f90c05ffdc72cfc71734aeba7a4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b642fd73e76a2711cc5d0dc989ac77c = $(`<div id="html_9b642fd73e76a2711cc5d0dc989ac77c" style="width: 100.0%; height: 100.0%;"><b>Akrogiali</b><br>Great location if especially if you can get a seaside table. Food is fine - though seems to change ownership a lot…</div>`)[0];
+            popup_4e7f90c05ffdc72cfc71734aeba7a4f1.setContent(html_9b642fd73e76a2711cc5d0dc989ac77c);
+        
+
+        marker_d97d5278a59897d4e764c0b0a1bee9d7.bindPopup(popup_4e7f90c05ffdc72cfc71734aeba7a4f1)
+        ;
+
+        
+    
+    
+            var marker_9af7a1048210671491f4260d7397107a = L.marker(
+                [36.84464909430824, 22.259922751050883],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_70640439c8ab15a5bbab92eb318527b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9af7a1048210671491f4260d7397107a.setIcon(icon_70640439c8ab15a5bbab92eb318527b4);
+        
+    
+        var popup_b2bbf566b0af1c57c70da11e86874543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d29bb49426cee6fb6308597fb6e48735 = $(`<div id="html_d29bb49426cee6fb6308597fb6e48735" style="width: 100.0%; height: 100.0%;"><b>Five Brothers</b><br>Very traditional feeling taverna. One of the oldest in Stoupa. Probably better at lunch than dinner.</div>`)[0];
+            popup_b2bbf566b0af1c57c70da11e86874543.setContent(html_d29bb49426cee6fb6308597fb6e48735);
+        
+
+        marker_9af7a1048210671491f4260d7397107a.bindPopup(popup_b2bbf566b0af1c57c70da11e86874543)
+        ;
+
+        
+    
+    
+            var marker_5daf2f012f5d335cbd5f6690b2dacc30 = L.marker(
+                [36.847070549406006, 22.258149236423236],
+                {}
+            ).addTo(map_0235e469a716831e7294baeef829752d);
+        
+    
+            var icon_164786ab6803dbb515a2e92535c10055 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5daf2f012f5d335cbd5f6690b2dacc30.setIcon(icon_164786ab6803dbb515a2e92535c10055);
+        
+    
+        var popup_4d423f3c4ed1adc1c5591012c2f2cde5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_687bf928a834270e70906805fb181a06 = $(`<div id="html_687bf928a834270e70906805fb181a06" style="width: 100.0%; height: 100.0%;"><b>Stoupa Restaurant</b><br>Nice views over the bay. Slightly upmarket and a different menu to others. <a href='https://stouparestaurant.gr/?lang=en' target='_blank'>Visit Stoupa Restaurant Website</a>.</div>`)[0];
+            popup_4d423f3c4ed1adc1c5591012c2f2cde5.setContent(html_687bf928a834270e70906805fb181a06);
+        
+
+        marker_5daf2f012f5d335cbd5f6690b2dacc30.bindPopup(popup_4d423f3c4ed1adc1c5591012c2f2cde5)
+        ;
+
+        
+    
+</script>
+</html>
